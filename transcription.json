@@ -1,9 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "pluginId": "elevenlabs",
-  "protocol": "timed-words-multipart",
   "endpoint": "https://api.elevenlabs.io/v1/speech-to-text",
   "credentialSetting": "api-key",
   "credentialHeader": "xi-api-key",
-  "model": "scribe_v2"
+  "credentialPrefix": "",
+  "maxAudioBytes": 33554432,
+  "fileField": "file",
+  "form": {
+    "model_id": "scribe_v2",
+    "timestamps_granularity": "word"
+  },
+  "response": {
+    "text": "/text",
+    "language": "/language_code",
+    "words": {
+      "items": "/words",
+      "text": "/text",
+      "start": "/start",
+      "end": "/end",
+      "speaker": "/speaker_id",
+      "filter": {
+        "field": "/type",
+        "equals": "word"
+      }
+    }
+  }
 }
