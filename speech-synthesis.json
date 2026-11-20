@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "pluginId": "elevenlabs",
+  "endpoint": "https://api.elevenlabs.io/v1/text-to-speech",
+  "credentialSetting": "api-key",
+  "credentialHeader": "xi-api-key",
+  "credentialPrefix": "",
+  "textField": "text",
+  "body": {
+    "model_id": "eleven_multilingual_v2"
+  },
+  "query": {
+    "output_format": "mp3_44100_128"
+  },
+  "responseFormat": "mp3",
+  "maxTextCharacters": 2500
+}
