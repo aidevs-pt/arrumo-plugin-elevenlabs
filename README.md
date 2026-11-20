@@ -15,3 +15,12 @@ workspace credential and caller-supplied voice ID to the ElevenLabs
 [Create speech endpoint](https://elevenlabs.io/docs/api-reference/text-to-speech/convert).
 It requests MP3 from the Multilingual v2 model and caps each request at
 2,500 characters. Arrumo host dispatch is pending.
+
+## Package a release candidate
+
+From this checkout, use the Arrumo Plugin SDK packager with the adapter files
+listed explicitly. Record the SDK commit and the SHA-256 printed by the tool.
+
+```sh
+python /path/to/plugin-sdk/tools/package_plugin.py . plugin.zip --include LICENSE --include README.md --include transcription.json --include speech-synthesis.json
+```
