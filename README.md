@@ -2,8 +2,6 @@
 
 The default ElevenLabs adapter for transcription and audio generation.
 
-This repository is being initialized. See the Arrumo workspace roadmap for implementation status.
-
 Copyright © 2026 DEVS AI Unipessoal LDA. Licensed under the [GNU Affero General Public License v3.0](LICENSE).
 
 For custom AI solutions for your company, visit [DEVS AI](https://aidevs.pt).
@@ -14,7 +12,11 @@ The SDK speech synthesis descriptor in `speech-synthesis.json` maps the
 workspace credential and caller-supplied voice ID to the ElevenLabs
 [Create speech endpoint](https://elevenlabs.io/docs/api-reference/text-to-speech/convert).
 It requests MP3 from the Multilingual v2 model and caps each request at
-2,500 characters. Arrumo host dispatch is pending.
+2,500 characters per request. Use the Arrumo host speech commands for dispatch.
+
+## Transcription and subtitles
+
+[English](docs/en/transcription.md) · [Español](docs/es/transcription.md) · [Português](docs/pt/transcription.md)
 
 ## Package a release candidate
 
