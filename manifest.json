@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "id": "elevenlabs",
-  "name": "Arrumo ElevenLabs Plugin",
-  "description": "The default ElevenLabs adapter for transcription and audio generation.",
+  "name": "ElevenLabs",
+  "description": "Transcribes every video and voices dubs. Nothing can be transcribed without it until another transcription plugin is set up.",
   "capabilities": {
     "transcription": {
       "name": "Transcription",
@@ -16,8 +16,8 @@
   "settings": [
     {
       "id": "api-key",
-      "label": "API key",
-      "description": "Credential used for API calls to ElevenLabs.",
+      "label": "ElevenLabs API key",
+      "description": "Used for transcription and speech. Stored in the system vault; agents can use it through Arrumo but never read it.",
       "kind": "secret",
       "scope": "workspace",
       "required": true
