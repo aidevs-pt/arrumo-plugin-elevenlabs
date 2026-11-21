@@ -21,6 +21,14 @@
       "kind": "secret",
       "scope": "workspace",
       "required": true
+    },
+    {
+      "id": "voice",
+      "label": "Voice ID",
+      "description": "The ElevenLabs voice that narrates videos. Copy a voice ID from your ElevenLabs voice library. Leave empty to use George.",
+      "kind": "string",
+      "scope": "workspace",
+      "required": false
     }
   ]
 }

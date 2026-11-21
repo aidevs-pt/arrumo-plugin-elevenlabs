@@ -13,5 +13,7 @@
     "output_format": "mp3_44100_128"
   },
   "responseFormat": "mp3",
-  "maxTextCharacters": 2500
+  "maxTextCharacters": 2500,
+  "voiceSetting": "voice",
+  "defaultVoice": "JBFqnCBsd6RMkjVDRZzb"
 }

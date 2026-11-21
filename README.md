@@ -13,6 +13,8 @@ workspace credential and caller-supplied voice ID to the ElevenLabs
 [Create speech endpoint](https://elevenlabs.io/docs/api-reference/text-to-speech/convert).
 It requests MP3 from the Multilingual v2 model and caps each request at
 2,500 characters per request. Use the Arrumo host speech commands for dispatch.
+Arrumo narrates storyboarded videos with the workspace's **Voice ID** setting,
+or with the George voice (`JBFqnCBsd6RMkjVDRZzb`) when it is empty.
 
 ## Transcription and subtitles
 
