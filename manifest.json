@@ -2,7 +2,7 @@
   "schemaVersion": 10,
   "id": "elevenlabs",
   "name": "ElevenLabs",
-  "description": "Transcribes every video and voices dubs. Nothing can be transcribed without it until another transcription plugin is set up.",
+  "description": "Transcribes every video and voices dubs. The recommended transcription service; OpenAI also works.",
   "capabilities": {
     "transcription": {
       "name": "Transcription",
@@ -48,7 +48,7 @@
   "iconNotice": "ElevenLabs and its logo are trademarks of ElevenLabs.",
   "translations": {
     "es": {
-      "description": "Transcribe cada vídeo y pone voz a los doblajes. Sin él no se puede transcribir nada hasta que configures otro complemento de transcripción.",
+      "description": "Transcribe cada vídeo y pone voz a los doblajes. Es el servicio de transcripción recomendado; OpenAI también sirve.",
       "capabilities": {
         "transcription": {
           "name": "Transcripción",
@@ -72,7 +72,7 @@
       "iconNotice": "ElevenLabs y su logotipo son marcas de ElevenLabs."
     },
     "pt": {
-      "description": "Transcreve cada vídeo e dá voz às dobragens. Sem ele nada pode ser transcrito até configurares outro plugin de transcrição.",
+      "description": "Transcreve cada vídeo e dá voz às dobragens. É o serviço de transcrição recomendado; a OpenAI também serve.",
       "capabilities": {
         "transcription": {
           "name": "Transcrição",
