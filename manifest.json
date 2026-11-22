@@ -11,6 +11,14 @@
     "text-to-speech": {
       "name": "Text to speech",
       "description": "Generate speech audio from supplied text."
+    },
+    "music-generation": {
+      "name": "Music",
+      "description": "Compose instrumental background music from a written description."
+    },
+    "sound-effect-generation": {
+      "name": "Sound effects",
+      "description": "Create short sound effects from a written description."
     }
   },
   "settings": [
@@ -57,6 +65,14 @@
         "text-to-speech": {
           "name": "Texto a voz",
           "description": "Genera audio hablado a partir de un texto."
+        },
+        "music-generation": {
+          "name": "Música",
+          "description": "Compone música instrumental de fondo a partir de una descripción."
+        },
+        "sound-effect-generation": {
+          "name": "Efectos de sonido",
+          "description": "Crea efectos de sonido cortos a partir de una descripción."
         }
       },
       "settings": {
@@ -81,6 +97,14 @@
         "text-to-speech": {
           "name": "Texto para voz",
           "description": "Gera áudio falado a partir de um texto."
+        },
+        "music-generation": {
+          "name": "Música",
+          "description": "Compõe música instrumental de fundo a partir de uma descrição."
+        },
+        "sound-effect-generation": {
+          "name": "Efeitos sonoros",
+          "description": "Cria efeitos sonoros curtos a partir de uma descrição."
         }
       },
       "settings": {

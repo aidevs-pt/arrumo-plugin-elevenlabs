@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "pluginId": "elevenlabs",
+  "credentialSetting": "api-key",
+  "credentialHeader": "xi-api-key",
+  "credentialPrefix": "",
+  "responseFormat": "mp3",
+  "kinds": {
+    "music": {
+      "endpoint": "https://api.elevenlabs.io/v1/music",
+      "promptField": "prompt",
+      "durationField": "music_length_ms",
+      "durationUnit": "milliseconds",
+      "minSeconds": 3,
+      "maxSeconds": 600,
+      "maxPromptCharacters": 2000,
+      "body": {
+        "model_id": "music_v1",
+        "force_instrumental": true
+      },
+      "query": {
+        "output_format": "mp3_44100_128"
+      }
+    },
+    "sound-effect": {
+      "endpoint": "https://api.elevenlabs.io/v1/sound-generation",
+      "promptField": "text",
+      "durationField": "duration_seconds",
+      "durationUnit": "seconds",
+      "minSeconds": 0.5,
+      "maxSeconds": 30,
+      "maxPromptCharacters": 1000,
+      "body": {
+        "model_id": "eleven_text_to_sound_v2"
+      },
+      "query": {
+        "output_format": "mp3_44100_128"
+      }
+    }
+  }
+}
