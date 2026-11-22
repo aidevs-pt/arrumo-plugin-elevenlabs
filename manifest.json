@@ -43,7 +43,8 @@
       "pt": "O ElevenLabs transcreve as tuas gravações para que o agente corte pelo que foi dito, e dá voz às dobragens quando quiseres um vídeo noutra língua."
     }
   },
-  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect width=\"32\" height=\"32\" rx=\"8\" fill=\"#1f2937\"/><path d=\"M8 13v6M12 10v12M16 7v18M20 11v10M24 14v4\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+  "icon": "icon.svg",
+  "iconNotice": "ElevenLabs and its logo are trademarks of ElevenLabs.",
   "translations": {
     "es": {
       "description": "Transcribe cada vídeo y pone voz a los doblajes. Sin él no se puede transcribir nada hasta que configures otro complemento de transcripción.",
@@ -66,7 +67,8 @@
           "label": "ID de voz",
           "description": "La voz de ElevenLabs que narra los vídeos. Copia un ID de voz de tu biblioteca de ElevenLabs. Déjalo vacío para usar George."
         }
-      }
+      },
+      "iconNotice": "ElevenLabs y su logotipo son marcas de ElevenLabs."
     },
     "pt": {
       "description": "Transcreve cada vídeo e dá voz às dobragens. Sem ele nada pode ser transcrito até configurares outro plugin de transcrição.",
@@ -89,7 +91,8 @@
           "label": "ID de voz",
           "description": "A voz da ElevenLabs que narra os vídeos. Copia um ID de voz da tua biblioteca ElevenLabs. Deixa vazio para usar o George."
         }
-      }
+      },
+      "iconNotice": "ElevenLabs e o seu logótipo são marcas da ElevenLabs."
     }
   }
 }

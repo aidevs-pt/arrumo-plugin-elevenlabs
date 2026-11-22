@@ -2,6 +2,12 @@
 
 The default ElevenLabs adapter for transcription and audio generation.
 
+## Icon and trademarks
+
+`icon.svg` uses the official ElevenLabs mark, only to identify the service this
+plugin connects to. ElevenLabs and its logo are trademarks of ElevenLabs. This plugin is not affiliated with or endorsed by
+ElevenLabs, and the mark is not covered by this repository's license.
+
 Copyright © 2026 DEVS AI Unipessoal LDA. Licensed under the [GNU Affero General Public License v3.0](LICENSE).
 
 For custom AI solutions for your company, visit [DEVS AI](https://aidevs.pt).
