@@ -15,7 +15,7 @@
       "maxSeconds": 600,
       "maxPromptCharacters": 2000,
       "body": {
-        "model_id": "music_v1",
+        "model_id": "music_v2_5",
         "force_instrumental": true
       },
       "query": {
@@ -31,7 +31,7 @@
       "maxSeconds": 30,
       "maxPromptCharacters": 1000,
       "body": {
-        "model_id": "eleven_text_to_sound_v2"
+        "model_id": "eleven_text_to_sound_v3"
       },
       "query": {
         "output_format": "mp3_44100_128"
