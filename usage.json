@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "pluginId": "elevenlabs",
+  "endpoint": "https://api.elevenlabs.io/v1/user/subscription",
+  "credentialSetting": "api-key",
+  "credentialHeader": "xi-api-key",
+  "credentialPrefix": "",
+  "used": "/character_count",
+  "limit": "/character_limit",
+  "resetsAt": "/next_character_count_reset_unix",
+  "unit": "characters"
+}

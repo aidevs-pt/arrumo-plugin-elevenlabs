@@ -17,7 +17,7 @@
     {
       "id": "api-key",
       "label": "ElevenLabs API key",
-      "description": "Used for transcription and speech. Stored in the system vault; agents can use it through Arrumo but never read it.",
+      "description": "Used for transcription and speech. Give it the User read permission too, so Arrumo can show your remaining credits. Stored in the system vault; agents can use it through Arrumo but never read it.",
       "kind": "secret",
       "scope": "workspace",
       "required": true
@@ -61,7 +61,7 @@
       "settings": {
         "api-key": {
           "label": "Clave de API de ElevenLabs",
-          "description": "Se usa para transcripción y voz. Se guarda en el almacén del sistema; los agentes pueden usarla a través de Arrumo, pero nunca leerla."
+          "description": "Se usa para transcripción y voz. Dale también el permiso de lectura de usuario para que Arrumo muestre los créditos que te quedan. Se guarda en el almacén del sistema; los agentes pueden usarla a través de Arrumo, pero nunca leerla."
         },
         "voice": {
           "label": "ID de voz",
@@ -85,7 +85,7 @@
       "settings": {
         "api-key": {
           "label": "Chave de API da ElevenLabs",
-          "description": "Usada para transcrição e voz. Fica guardada no cofre do sistema; os agentes podem usá-la através do Arrumo, mas nunca lê-la."
+          "description": "Usada para transcrição e voz. Dê-lhe também a permissão de leitura do utilizador, para o Arrumo mostrar os créditos que restam. Fica guardada no cofre do sistema; os agentes podem usá-la através do Arrumo, mas nunca lê-la."
         },
         "voice": {
           "label": "ID de voz",
