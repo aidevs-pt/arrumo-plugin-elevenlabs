@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "pluginId": "elevenlabs",
+  "credentialSetting": "api-key",
+  "credentialHeader": "xi-api-key",
+  "credentialPrefix": "",
+  "voiceSetting": "voice",
+  "transforms": {
+    "voice-change": {
+      "endpoint": "https://api.elevenlabs.io/v1/speech-to-speech",
+      "voiceSegment": true,
+      "fileField": "audio",
+      "fields": {
+        "model_id": "eleven_multilingual_sts_v2",
+        "remove_background_noise": "false"
+      },
+      "query": {
+        "output_format": "mp3_44100_128"
+      },
+      "maxInputSeconds": 300,
+      "maxInputBytes": 52428800
+    },
+    "voice-isolation": {
+      "endpoint": "https://api.elevenlabs.io/v1/audio-isolation",
+      "voiceSegment": false,
+      "fileField": "audio",
+      "fields": {},
+      "query": {},
+      "maxInputSeconds": 3600,
+      "maxInputBytes": 524288000,
+      "minInputSeconds": 4.6
+    }
+  }
+}

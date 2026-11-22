@@ -19,6 +19,14 @@
     "sound-effect-generation": {
       "name": "Sound effects",
       "description": "Create short sound effects from a written description."
+    },
+    "voice-changer": {
+      "name": "Voice changer",
+      "description": "Say the words of a recording again in another voice, keeping its timing and delivery."
+    },
+    "voice-isolation": {
+      "name": "Voice isolation",
+      "description": "Keep the voice of a recording and remove background noise and music."
     }
   },
   "settings": [
@@ -89,6 +97,14 @@
         "sound-effect-generation": {
           "name": "Efectos de sonido",
           "description": "Crea efectos de sonido cortos a partir de una descripción."
+        },
+        "voice-changer": {
+          "name": "Cambiador de voz",
+          "description": "Repite las palabras de una grabación con otra voz, conservando su ritmo y entonación."
+        },
+        "voice-isolation": {
+          "name": "Aislamiento de voz",
+          "description": "Conserva la voz de una grabación y elimina el ruido y la música de fondo."
         }
       },
       "settings": {
@@ -132,6 +148,14 @@
         "sound-effect-generation": {
           "name": "Efeitos sonoros",
           "description": "Cria efeitos sonoros curtos a partir de uma descrição."
+        },
+        "voice-changer": {
+          "name": "Alterador de voz",
+          "description": "Repete as palavras de uma gravação com outra voz, mantendo o ritmo e a entoação."
+        },
+        "voice-isolation": {
+          "name": "Isolamento de voz",
+          "description": "Mantém a voz de uma gravação e remove o ruído e a música de fundo."
         }
       },
       "settings": {
