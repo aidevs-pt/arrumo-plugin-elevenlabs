@@ -4,23 +4,11 @@ The default ElevenLabs adapter for transcription and audio generation.
 
 ## Icon and trademarks
 
-`icon.svg` uses the official ElevenLabs mark, only to identify the service this
-plugin connects to. ElevenLabs and its logo are trademarks of ElevenLabs. This plugin is not affiliated with or endorsed by
-ElevenLabs, and the mark is not covered by this repository's license.
-
-Copyright © 2026 DEVS AI Unipessoal LDA. Licensed under the [GNU Affero General Public License v3.0](LICENSE).
-
-For custom AI solutions for your company, visit [DEVS AI](https://aidevs.pt).
-
-The bundled transcription adapter uses `transcription.json` to declare its endpoint, model, and SDK credential field. Arrumo handles the WAV upload and resolves the credential from its system store. See [ElevenLabs' transcription API reference](https://elevenlabs.io/docs/api-reference/speech-to-text/convert).
-
-The SDK speech synthesis descriptor in `speech-synthesis.json` maps the
-workspace credential and caller-supplied voice ID to the ElevenLabs
-[Create speech endpoint](https://elevenlabs.io/docs/api-reference/text-to-speech/convert).
-It requests MP3 from the Multilingual v2 model and caps each request at
-2,500 characters per request. Use the Arrumo host speech commands for dispatch.
-Arrumo narrates storyboarded videos with the workspace's **Voice ID** setting,
-or with the George voice (`JBFqnCBsd6RMkjVDRZzb`) when it is empty.
+`icon.svg` uses the ElevenLabs "11" symbol, unmodified, on a square holding shape, as the
+ElevenLabs brand guidelines (https://elevenlabs.io/brand) recommend for app ecosystems. It only
+identifies the service this plugin connects to. ElevenLabs and its logo are trademarks of
+ElevenLabs. This plugin is not affiliated with or endorsed by ElevenLabs, and the mark is not
+covered by this repository's license.
 
 ## Transcription and subtitles
 
