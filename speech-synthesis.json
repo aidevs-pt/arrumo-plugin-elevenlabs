@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "pluginId": "elevenlabs",
   "endpoint": "https://api.elevenlabs.io/v1/text-to-speech",
   "credentialSetting": "api-key",
@@ -15,5 +15,73 @@
   "responseFormat": "mp3",
   "maxTextCharacters": 2500,
   "voiceSetting": "voice",
-  "defaultVoice": "JBFqnCBsd6RMkjVDRZzb"
+  "defaultVoice": "JBFqnCBsd6RMkjVDRZzb",
+  "model": {
+    "default": "eleven_multilingual_v2",
+    "setting": "speech-model"
+  },
+  "models": {
+    "eleven_multilingual_v2": {
+      "label": "Multilingual v2",
+      "bestFor": {
+        "en": "Long narration in 29 languages; ElevenLabs calls it the most stable on long-form generations.",
+        "es": "Narración larga en 29 idiomas; ElevenLabs lo considera el más estable en textos largos.",
+        "pt": "Narração longa em 29 línguas; a ElevenLabs considera-o o mais estável em textos longos."
+      },
+      "body": {
+        "model_id": "eleven_multilingual_v2"
+      },
+      "maxTextCharacters": 10000
+    },
+    "eleven_v4": {
+      "label": "Eleven v4",
+      "bestFor": {
+        "en": "ElevenLabs' most emotive model, for character voiceovers, emotional delivery and audiobooks in 90+ languages.",
+        "es": "El modelo más expresivo de ElevenLabs, para voces de personajes, interpretación emotiva y audiolibros en más de 90 idiomas.",
+        "pt": "O modelo mais expressivo da ElevenLabs, para vozes de personagens, interpretação emotiva e audiolivros em mais de 90 línguas."
+      },
+      "body": {
+        "model_id": "eleven_v4"
+      },
+      "maxTextCharacters": 10000
+    },
+    "eleven_v3": {
+      "label": "Eleven v3",
+      "bestFor": {
+        "en": "The previous expressive model, for dramatic delivery in 70+ languages; up to 5,000 characters.",
+        "es": "El modelo expresivo anterior, para una interpretación dramática en más de 70 idiomas; hasta 5000 caracteres.",
+        "pt": "O modelo expressivo anterior, para uma interpretação dramática em mais de 70 línguas; até 5000 caracteres."
+      },
+      "body": {
+        "model_id": "eleven_v3"
+      },
+      "maxTextCharacters": 5000
+    },
+    "eleven_flash_v2_5": {
+      "label": "Flash v2.5",
+      "bestFor": {
+        "en": "Fast, lower-cost voice in 32 languages; ElevenLabs prices it at half the per-character rate.",
+        "es": "Voz rápida y más barata en 32 idiomas; ElevenLabs la cobra a la mitad por carácter.",
+        "pt": "Voz rápida e mais barata em 32 línguas; a ElevenLabs cobra-a a metade por carácter."
+      },
+      "body": {
+        "model_id": "eleven_flash_v2_5",
+        "apply_text_normalization": "on"
+      },
+      "maxTextCharacters": 10000
+    },
+    "eleven_flash_v2": {
+      "label": "Flash v2",
+      "bestFor": {
+        "en": "Fast English-only voice.",
+        "es": "Voz rápida solo en inglés.",
+        "pt": "Voz rápida só em inglês."
+      },
+      "body": {
+        "model_id": "eleven_flash_v2",
+        "apply_text_normalization": "on"
+      },
+      "maxTextCharacters": 10000
+    }
+  }
 }

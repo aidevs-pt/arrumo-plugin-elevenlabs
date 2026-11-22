@@ -38,6 +38,22 @@
       "kind": "string",
       "scope": "workspace",
       "required": false
+    },
+    {
+      "id": "speech-model",
+      "label": "Speech model",
+      "description": "The model used for narration when you or the agent don't pick one. Generate shows what each is best for.",
+      "kind": "string",
+      "scope": "workspace",
+      "required": false,
+      "choices": [
+        "eleven_multilingual_v2",
+        "eleven_v4",
+        "eleven_v3",
+        "eleven_flash_v2_5",
+        "eleven_flash_v2"
+      ],
+      "default": "eleven_multilingual_v2"
     }
   ],
   "introduction": {
@@ -83,6 +99,17 @@
         "voice": {
           "label": "ID de voz",
           "description": "La voz de ElevenLabs que narra los vídeos. Copia un ID de voz de tu biblioteca de ElevenLabs. Déjalo vacío para usar George."
+        },
+        "speech-model": {
+          "label": "Modelo de voz",
+          "description": "El modelo que se usa para la narración cuando ni tú ni el agente eligen uno. Generar muestra para qué es ideal cada uno.",
+          "choices": {
+            "eleven_multilingual_v2": "Multilingual v2",
+            "eleven_v4": "Eleven v4",
+            "eleven_v3": "Eleven v3",
+            "eleven_flash_v2_5": "Flash v2.5",
+            "eleven_flash_v2": "Flash v2"
+          }
         }
       },
       "iconNotice": "ElevenLabs y su logotipo son marcas de ElevenLabs."
@@ -115,9 +142,33 @@
         "voice": {
           "label": "ID de voz",
           "description": "A voz da ElevenLabs que narra os vídeos. Copia um ID de voz da tua biblioteca ElevenLabs. Deixa vazio para usar o George."
+        },
+        "speech-model": {
+          "label": "Modelo de voz",
+          "description": "O modelo usado na narração quando nem tu nem o agente escolhem um. Gerar mostra para que é ideal cada um.",
+          "choices": {
+            "eleven_multilingual_v2": "Multilingual v2",
+            "eleven_v4": "Eleven v4",
+            "eleven_v3": "Eleven v3",
+            "eleven_flash_v2_5": "Flash v2.5",
+            "eleven_flash_v2": "Flash v2"
+          }
         }
       },
       "iconNotice": "ElevenLabs e o seu logótipo são marcas da ElevenLabs."
+    },
+    "en": {
+      "settings": {
+        "speech-model": {
+          "choices": {
+            "eleven_multilingual_v2": "Multilingual v2",
+            "eleven_v4": "Eleven v4",
+            "eleven_v3": "Eleven v3",
+            "eleven_flash_v2_5": "Flash v2.5",
+            "eleven_flash_v2": "Flash v2"
+          }
+        }
+      }
     }
   }
 }
