@@ -12,7 +12,11 @@ covered by this repository's license.
 
 ## Transcription and subtitles
 
-[English](docs/en/transcription.md) · [Español](docs/es/transcription.md) · [Português](docs/pt/transcription.md)
+[English](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/en/plugins/elevenlabs/transcription.md) · [Español](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/es/plugins/elevenlabs/transcription.md) · [Português](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/pt/plugins/elevenlabs/transcription.md)
+
+## Narration
+
+[English](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/en/plugins/elevenlabs/narration.md) · [Español](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/es/plugins/elevenlabs/narration.md) · [Português](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/pt/plugins/elevenlabs/narration.md)
 
 ## Remaining credits
 
