@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 8,
   "id": "elevenlabs",
   "name": "ElevenLabs",
   "description": "Transcribes every video and voices dubs. Nothing can be transcribed without it until another transcription plugin is set up.",
@@ -30,5 +30,17 @@
       "scope": "workspace",
       "required": false
     }
-  ]
+  ],
+  "introduction": {
+    "headline": {
+      "en": "Every word, transcribed and voiced",
+      "es": "Cada palabra, transcrita y con voz",
+      "pt": "Cada palavra, transcrita e com voz"
+    },
+    "body": {
+      "en": "ElevenLabs transcribes your footage so the agent can cut on what was said, and voices dubs when you want a video in another language.",
+      "es": "ElevenLabs transcribe tu metraje para que el agente corte según lo que se dice, y pone voz a los doblajes cuando quieras un vídeo en otro idioma.",
+      "pt": "O ElevenLabs transcreve as tuas gravações para que o agente corte pelo que foi dito, e dá voz às dobragens quando quiseres um vídeo noutra língua."
+    }
+  }
 }
