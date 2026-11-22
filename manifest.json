@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 10,
   "id": "elevenlabs",
   "name": "ElevenLabs",
   "description": "Transcribes every video and voices dubs. Nothing can be transcribed without it until another transcription plugin is set up.",
@@ -20,7 +20,8 @@
       "description": "Used for transcription and speech. Give it the User read permission too, so Arrumo can show your remaining credits. Stored in the system vault; agents can use it through Arrumo but never read it.",
       "kind": "secret",
       "scope": "workspace",
-      "required": true
+      "required": true,
+      "helpUrl": "https://elevenlabs.io/app/settings/api-keys"
     },
     {
       "id": "voice",
