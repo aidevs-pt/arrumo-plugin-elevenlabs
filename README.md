@@ -1,6 +1,6 @@
 # Arrumo ElevenLabs Plugin
 
-The default ElevenLabs adapter for transcription and audio generation.
+The default ElevenLabs adapter for transcription, narration, music, sound effects, voice changing, voice isolation and dubbing.
 
 ## Icon and trademarks
 
@@ -18,6 +18,20 @@ covered by this repository's license.
 
 [English](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/en/plugins/elevenlabs/narration.md) · [Español](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/es/plugins/elevenlabs/narration.md) · [Português](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/pt/plugins/elevenlabs/narration.md)
 
+## What it covers
+
+| Capability | Descriptor | ElevenLabs API |
+| --- | --- | --- |
+| Transcription | `transcription.json` | Speech to text |
+| Narration | `speech-synthesis.json` | Text to speech: Multilingual v2 (default), Eleven v4, Eleven v3, Flash v2.5, Flash v2 |
+| Music and sound effects | `audio-generation.json` | Music (`music_v2_5`) and sound effects (`eleven_text_to_sound_v3`) |
+| Voice changer and voice isolation | `audio-transform.json` | Speech to speech (up to 5 minutes) and audio isolation (4.6 seconds to 1 hour) |
+| Dubbing | `dubbing.json` | Dubbing into 29 languages, up to 1 hour |
+
+Music, dubbing and some models need a paid plan. When the plan lacks a feature, Arrumo shows
+ElevenLabs' HTTP 402 answer as a plain message. Voice design, voice cloning, text to dialogue and
+forced alignment are not covered.
+
 ## Remaining credits
 
 `usage.json` reads `GET /v1/user/subscription` (`character_count` of
@@ -34,5 +48,5 @@ From this checkout, use the Arrumo Plugin SDK packager with the adapter files
 listed explicitly. Record the SDK commit and the SHA-256 printed by the tool.
 
 ```sh
-python /path/to/plugin-sdk/tools/package_plugin.py . plugin.zip --include LICENSE --include README.md --include transcription.json --include usage.json --include speech-synthesis.json
+python /path/to/plugin-sdk/tools/package_plugin.py . plugin.zip --include LICENSE --include README.md --include transcription.json --include usage.json --include speech-synthesis.json --include audio-generation.json --include audio-transform.json --include dubbing.json
 ```

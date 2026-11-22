@@ -2,7 +2,7 @@
   "schemaVersion": 10,
   "id": "elevenlabs",
   "name": "ElevenLabs",
-  "description": "Transcribes every video and voices dubs. The recommended transcription service; OpenAI also works.",
+  "description": "Transcribes, narrates in five speech models, makes music and sound effects, changes and isolates voices, and dubs into 29 languages.",
   "capabilities": {
     "transcription": {
       "name": "Transcription",
@@ -84,7 +84,7 @@
   "iconNotice": "ElevenLabs and its logo are trademarks of ElevenLabs.",
   "translations": {
     "es": {
-      "description": "Transcribe cada vídeo y pone voz a los doblajes. Es el servicio de transcripción recomendado; OpenAI también sirve.",
+      "description": "Transcribe, narra con cinco modelos de voz, crea música y efectos de sonido, cambia y aísla voces, y dobla a 29 idiomas.",
       "capabilities": {
         "transcription": {
           "name": "Transcripción",
@@ -139,7 +139,7 @@
       "iconNotice": "ElevenLabs y su logotipo son marcas de ElevenLabs."
     },
     "pt": {
-      "description": "Transcreve cada vídeo e dá voz às dobragens. É o serviço de transcrição recomendado; a OpenAI também serve.",
+      "description": "Transcreve, narra com cinco modelos de voz, cria música e efeitos sonoros, muda e isola vozes, e dobra para 29 línguas.",
       "capabilities": {
         "transcription": {
           "name": "Transcrição",
