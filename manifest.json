@@ -27,6 +27,10 @@
     "voice-isolation": {
       "name": "Voice isolation",
       "description": "Keep the voice of a recording and remove background noise and music."
+    },
+    "dubbing": {
+      "name": "Dubbing",
+      "description": "Translate the speech of a recording into another language in matching voices."
     }
   },
   "settings": [
@@ -105,6 +109,10 @@
         "voice-isolation": {
           "name": "Aislamiento de voz",
           "description": "Conserva la voz de una grabación y elimina el ruido y la música de fondo."
+        },
+        "dubbing": {
+          "name": "Doblaje",
+          "description": "Traduce el habla de una grabación a otro idioma con voces parecidas."
         }
       },
       "settings": {
@@ -156,6 +164,10 @@
         "voice-isolation": {
           "name": "Isolamento de voz",
           "description": "Mantém a voz de uma gravação e remove o ruído e a música de fundo."
+        },
+        "dubbing": {
+          "name": "Dobragem",
+          "description": "Traduz a fala de uma gravação para outra língua com vozes semelhantes."
         }
       },
       "settings": {

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "pluginId": "elevenlabs",
+  "credentialSetting": "api-key",
+  "credentialHeader": "xi-api-key",
+  "credentialPrefix": "",
+  "create": {
+    "endpoint": "https://api.elevenlabs.io/v1/dubbing",
+    "fileField": "file",
+    "languageField": "target_lang",
+    "fields": {
+      "num_speakers": "0"
+    },
+    "idField": "dubbing_id"
+  },
+  "status": {
+    "endpoint": "https://api.elevenlabs.io/v1/dubbing/{id}",
+    "statusField": "status",
+    "done": [
+      "dubbed"
+    ],
+    "failed": [
+      "failed"
+    ],
+    "errorField": "error"
+  },
+  "result": {
+    "endpoint": "https://api.elevenlabs.io/v1/dubbing/{id}/audio/{language}"
+  },
+  "languages": [
+    "en",
+    "es",
+    "pt",
+    "fr",
+    "de",
+    "it",
+    "nl",
+    "pl",
+    "sv",
+    "da",
+    "fi",
+    "cs",
+    "sk",
+    "ro",
+    "bg",
+    "hr",
+    "el",
+    "uk",
+    "ru",
+    "tr",
+    "ar",
+    "hi",
+    "ta",
+    "id",
+    "ms",
+    "fil",
+    "zh",
+    "ja",
+    "ko"
+  ],
+  "maxInputSeconds": 3600,
+  "maxInputBytes": 524288000,
+  "maxWaitSeconds": 1800
+}
