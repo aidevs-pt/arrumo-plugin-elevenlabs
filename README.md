@@ -60,6 +60,10 @@ identifies the service this plugin connects to. ElevenLabs and its logo are trad
 ElevenLabs. This plugin is not affiliated with or endorsed by ElevenLabs, and the mark is not
 covered by this repository's license.
 
+## Contributing
+
+Contributions are welcome: read [CONTRIBUTING.md](CONTRIBUTING.md) and our [Code of Conduct](CODE_OF_CONDUCT.md). Report security problems privately as described in [SECURITY.md](SECURITY.md).
+
 ## License
 
 Copyright © 2026 DEVS AI Unipessoal LDA. Licensed under the [GNU Affero General Public License v3.0](LICENSE). Built by [DEVS AI](https://aidevs.pt), who make custom AI solutions for companies.
