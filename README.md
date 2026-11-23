@@ -1,22 +1,23 @@
-# Arrumo ElevenLabs Plugin
+<p align="center">
+  <img src="icon.svg" width="88" height="88" alt="">
+</p>
 
-The default ElevenLabs adapter for transcription, narration, music, sound effects, voice changing, voice isolation and dubbing.
+<h1 align="center">ElevenLabs for Arrumo AI Video Editor</h1>
 
-## Icon and trademarks
+<p align="center">Narration, music, sound effects, transcription, voice changing and dubbing from ElevenLabs.</p>
 
-`icon.svg` uses the ElevenLabs "11" symbol, unmodified, on a square holding shape, as the
-ElevenLabs brand guidelines (https://elevenlabs.io/brand) recommend for app ecosystems. It only
-identifies the service this plugin connects to. ElevenLabs and its logo are trademarks of
-ElevenLabs. This plugin is not affiliated with or endorsed by ElevenLabs, and the mark is not
-covered by this repository's license.
+<p align="center">
+  <a href="LICENSE"><img alt="License: AGPL-3.0" src="https://img.shields.io/badge/license-AGPL--3.0-2337B4"></a>
+  <img alt="Bundled with Arrumo" src="https://img.shields.io/badge/bundled%20with-Arrumo-2337B4">
+  <a href="https://www.aidevs.pt/tools/arrumo/docs/plugins/elevenlabs/narration"><img alt="Docs in English, Spanish and Portuguese" src="https://img.shields.io/badge/docs-EN%20%C2%B7%20ES%20%C2%B7%20PT-111"></a>
+</p>
 
-## Transcription and subtitles
+This plugin ships with [Arrumo AI Video Editor](https://github.com/aidevs-pt/arrumo-video-editor), the free, open-source desktop app where an AI agent writes, designs, voices and cuts your videos and you approve every step. It is turned on in a fresh install; manage it in **Settings › Plugins**.
 
-[English](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/en/plugins/elevenlabs/transcription.md) · [Español](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/es/plugins/elevenlabs/transcription.md) · [Português](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/pt/plugins/elevenlabs/transcription.md)
+## Guides
 
-## Narration
-
-[English](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/en/plugins/elevenlabs/narration.md) · [Español](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/es/plugins/elevenlabs/narration.md) · [Português](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/pt/plugins/elevenlabs/narration.md)
+- **Narration, music and sound**: [English](https://www.aidevs.pt/tools/arrumo/docs/plugins/elevenlabs/narration) · [Español](https://www.aidevs.pt/es/tools/arrumo/docs/plugins/elevenlabs/narration) · [Português](https://www.aidevs.pt/pt/tools/arrumo/docs/plugins/elevenlabs/narration)
+- **Transcription and subtitles**: [English](https://www.aidevs.pt/tools/arrumo/docs/plugins/elevenlabs/transcription) · [Español](https://www.aidevs.pt/es/tools/arrumo/docs/plugins/elevenlabs/transcription) · [Português](https://www.aidevs.pt/pt/tools/arrumo/docs/plugins/elevenlabs/transcription)
 
 ## What it covers
 
@@ -50,3 +51,15 @@ listed explicitly. Record the SDK commit and the SHA-256 printed by the tool.
 ```sh
 python /path/to/plugin-sdk/tools/package_plugin.py . plugin.zip --include LICENSE --include README.md --include transcription.json --include usage.json --include speech-synthesis.json --include audio-generation.json --include audio-transform.json --include dubbing.json
 ```
+
+## Icon and trademarks
+
+`icon.svg` uses the ElevenLabs "11" symbol, unmodified, on a square holding shape, as the
+ElevenLabs brand guidelines (https://elevenlabs.io/brand) recommend for app ecosystems. It only
+identifies the service this plugin connects to. ElevenLabs and its logo are trademarks of
+ElevenLabs. This plugin is not affiliated with or endorsed by ElevenLabs, and the mark is not
+covered by this repository's license.
+
+## License
+
+Copyright © 2026 DEVS AI Unipessoal LDA. Licensed under the [GNU Affero General Public License v3.0](LICENSE). Built by [DEVS AI](https://aidevs.pt), who make custom AI solutions for companies.
